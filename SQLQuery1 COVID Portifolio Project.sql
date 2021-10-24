@@ -1,14 +1,20 @@
+
+
+
 SELECT *
 FROM PortfolioProject..CovidDeaths
 ORDER BY 3, 
          4;
+
 --SELECT *
 --FROM PortfolioProject..CovidVaccinations
 --ORDER BY 3,4
---Select Location, date, total_cases, new_cases, total_deaths, population
---From PortfolioProject..CovidDeaths
---Where continent is not null 
---order by 1,2
+
+Select Location, date, total_cases, new_cases, total_deaths, population
+-From PortfolioProject..CovidDeaths
+Where continent is not null 
+order by 1,2
+
 -- Looking at Total Cases vs Total Deaths
 -- Shows likelihood of dying if you contract covid in your country
 
